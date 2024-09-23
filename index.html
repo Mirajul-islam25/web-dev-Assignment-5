@@ -1,11 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>web-dev-assignment-5</title>
+      <!-- daisy ui -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- google  font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+<style>
+      .lexend-font {
+  font-family: "Lexend", sans-serif;
+  }
+</style>
 </head>
-<body>
-      
+<body class="lexend-font">
+      <header class="bg-[#F9F7F3] p-6 static">
+               <div class="flex justify-between mx-7 ">
+                  <div>
+                        <button class="bg-[#B4F461] px-4 py-2 rounded-xl">Blog</button>
+                  </div>
+                  <div class="flex items-center gap-2">
+                       <img class="h-8 w-8" src="assets/logo.png" alt="">
+                       <h2>Donate Bangladesh</h2>
+                  </div>
+                  <div class="flex items-center gap-2">
+                        <img class="w-5 h-5" src="assets/coin.png" alt="">
+                        <h2>10000BDT</h2>
+                  </div>
+               </div>
+      </header>
+      <main>
+            <div class="mt-6 text-center sticky">
+                  <button class="bg-[#B4F461] px-4 py-2 rounded-xl">Donation</button>
+                  <button class="bg-[#B4F461] px-4 py-2 rounded-xl">History</button>
+                </div>
+
+                <div class="mx-5">
+                  <div class="sm:flex items-center justify-around mt-10 border rounded-xl p-5 gap-5 mx-20">
+                        <div><img src="assets/noakhali.png" alt=""></div>
+                        <div>
+                             <button class="flex mb-5 gap-4 mt-3"><img src="assets/coin.png" alt="">0BDT</button>
+                             <h1 class="font-bold text-xl mb-5">Donate for Flood at Noakhali, Bangladesh</h1>
+                             <p class="mb-4">
+                              The recent floods in Noakhali have caused significant<br>
+                               damage to homes  infrastructure. Your donation will help<br>
+                                provide essential supplies and  to those affected by this<br>
+                                 disaster. Every contribution, big or small, makes  difference.<br>
+                                  Please join us in supporting the relief efforts and making a<br>
+                                  positive impact on the lives of those in need.
+                             </p>
+                             <button class="mb-5"><input class="p-3 border-2 rounded-xl pr-52" type="text" placeholder="Write Donation Amount"></button> <br>
+                             <input class="bg-[#B4F461] lg:px-40 sm:px-32 py-2 rounded-xl" type="button" value="Donate Now">
+                        </div>
+                  </div>
+
+                  <div class="sm:flex items-center justify-around mt-5 border rounded-xl p-5 gap-5 mx-20">
+                        <div><img src="assets/feni.png" alt=""></div>
+                        <div>
+                             <button class="flex mb-5 gap-4 mt-3"><img src="assets/coin.png" alt="">0BDT</button>
+                             <h1 class="font-bold text-xl mb-5">Donate for Flood Relief in Feni,Bangladesh</h1>
+                             <p class="mb-4">
+                              The recent floods in Noakhali have caused significant<br>
+                               damage to homes  infrastructure. Your donation will help<br>
+                                provide essential supplies and  to those affected by this<br>
+                                 disaster. Every contribution, big or small, makes  difference.<br>
+                                  Please join us in supporting the relief efforts and making a<br>
+                                  positive impact on the lives of those in need.
+                             </p>
+                             <button class="mb-5"><input class="p-3 border-2 rounded-xl pr-52" type="text" placeholder="Write Donation Amount"></button> <br>
+                             <input class="bg-[#B4F461] lg:px-40 sm:px-32 py-2 rounded-xl" type="button" value="Donate Now">
+                        </div>
+                  </div>
+
+                  <div class="sm:flex items-center justify-around mt-5 border rounded-xl p-5 gap-5 mx-20">
+                        <div><img src="assets/quota-protest.png" alt=""></div>
+                        <div>
+                             <button class="flex mb-5 gap-4 mt-3"><img src="assets/coin.png" alt="">0BDT</button>
+                             <h1 class="font-bold text-xl mb-5">Aid for Injured in the Quota Movement</h1>
+                             <p class="mb-4">
+                              The recent floods in Noakhali have caused significant<br>
+                               damage to homes  infrastructure. Your donation will help<br>
+                                provide essential supplies and  to those affected by this<br>
+                                 disaster. Every contribution, big or small, makes  difference.<br>
+                                  Please join us in supporting the relief efforts and making a<br>
+                                  positive impact on the lives of those in need.
+                             </p>
+                             <button class="mb-5"><input class="p-3 border-2 rounded-xl pr-52" type="text" placeholder="Write Donation Amount"></button> <br>
+                             <input class="bg-[#B4F461] lg:px-40 sm:px-56 py-2 rounded-xl" type="button" value="Donate Now">
+                        </div>
+                  </div>
+                </div>
+      </main>
 </body>
 </html>
